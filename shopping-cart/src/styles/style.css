@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.body{
+    font-family: "Roboto";
+}
+
+/* CARD LAYOUT */
+
+.card{
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    text-align: center;  
+}
+
+.box-img{
+    background-size: cover;
+    margin: auto;
+    height: 220px;
+    width: 100%;
+}
+
+.product-img{
+    border-radius: 1em 1em 0 0;;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    height: 220px;
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+}
+.order-btn{
+    background-color: rgb(54, 86, 173);
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 2px 0;
+    font-size: 1.13em;
+    width: 100%;
+}
+.order-btn:hover{
+    background-color: rgb(64, 91, 165);
+    color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.16em;
+}
+
+.card{
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    text-align: center;  
+}
+.item-img{
+    height:80px;
+}
+.container{
+    margin-top: 5px;
+    background-color: beige;
+}
+h2{
+    text-align: center;
+}
+.remove{
+    border:1px solid red;
+    color:red;
+}
+.remove:hover{
+    background-color: red;
+    color:white;
+}
